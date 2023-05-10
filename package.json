@@ -1,7 +1,7 @@
 {
   "name": "simple-async-debounce",
   "description": "能够异步执行的debounce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
