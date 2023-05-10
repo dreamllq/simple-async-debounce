@@ -12,7 +12,7 @@ const asyncDebounce: (...args: Parameters<typeof debounce>)=>((...any)=>Promise<
     deferredSet.splice(0, deferredSet.length);
   }, wait, options);
 
-  return async (...args) => {
+  return (...args) => {
     const deferred = new Deferred();
     deferredSet.push(deferred);
     debounceFunc(...args);
